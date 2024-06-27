@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 3-is_kind_of_class.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Christian Alexander Vazquez Gonzalez <dev.chrisvaz@gmail.com>
 """Defines a class and inherited class-checking function."""
 
 

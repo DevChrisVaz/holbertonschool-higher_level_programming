@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 1-my_list.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Christian Alexander Vazquez Gonzalez <dev.chrisvaz@gmail.com>
 """Defines an inherited list class MyList."""
 
 
