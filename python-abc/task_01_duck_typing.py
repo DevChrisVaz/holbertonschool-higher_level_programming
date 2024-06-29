@@ -29,9 +29,12 @@ class Circle(Shape):
         """Initialize a Circle with a given radius.
 
         Args:
-            radius (float): The radius of the circle.
+            radius (float): The radius of the circle. Must be non-negative.
         """
-        self.radius = +radius
+        if radius < 0:
+            raise ValueError("Radius cannot be negative.")
+        self.radius = radius
+
 
     def area(self):
         """Calculate the area of the circle.
