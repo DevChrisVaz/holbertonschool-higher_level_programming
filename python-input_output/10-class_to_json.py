@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 10-class_to_json.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Christian Alexander Vazquez Gonzalez <dev.chrisvaz@gmail.com>
 """Defines a Python class-to-JSON function."""
 
 

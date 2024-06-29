@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 9-add_item.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Christian Alexander Vazquez Gonzalez <dev.chrisvaz@gmail.com>
 """Add all arguments to a Python list and save them to a file."""
 import sys
 
