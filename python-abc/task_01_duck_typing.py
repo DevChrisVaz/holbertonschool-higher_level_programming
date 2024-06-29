@@ -31,7 +31,7 @@ class Circle(Shape):
         Args:
             radius (float): The radius of the circle.
         """
-        self.radius = radius
+        self.radius = +radius
 
     def area(self):
         """Calculate the area of the circle.
@@ -39,7 +39,7 @@ class Circle(Shape):
         Returns:
             float: The area of the circle.
         """
-        return math.pi * (self.radius ** 2)
+        return math.pi * self.radius ** 2
 
     def perimeter(self):
         """Calculate the perimeter of the circle.
