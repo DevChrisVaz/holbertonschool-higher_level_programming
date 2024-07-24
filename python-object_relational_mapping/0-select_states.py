@@ -20,7 +20,7 @@ if __name__ == '__main__':
     rows = cur.fetchall()
 
     for row in rows:
-        print(row)
+        print(f"({row.id}, '{row.name}')")
         
     # Close the cursor and the connection
     cur.close()
