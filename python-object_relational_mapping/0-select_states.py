@@ -21,3 +21,7 @@ if __name__ == '__main__':
 
     for row in rows:
         print(row)
+        
+    # Close the cursor and the connection
+    cur.close()
+    db.close()
