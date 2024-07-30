@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from read_json import read
+import json
 
 app = Flask(__name__)
 
@@ -17,10 +17,10 @@ def contact():
 
 @app.route('/items')
 def items():
-      
-      file_name = "items.json"
-      items = read(file_name)
-      return render_template('items.html', items=items)
+      with open('items.json', 'r') as f:
+        data = json.load(f)
+      items_list = data.get("items", [])
+      return render_template('items.html', items=items_list)
 
 if __name__ == '__main__':
        app.run(debug=True, port=5000)
